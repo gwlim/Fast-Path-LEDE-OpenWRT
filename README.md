@@ -20,6 +20,9 @@ It also contains compiler optimization for the mips24kc,mips74kc and mpc8548 arc
 FAQ
 ---
 Problem: PPPoE cannot access certain websites
-Go to Network > Firewall > General Settings > Turn on MSS clamping
+
+Go to 
+
+Network > Firewall > General Settings > Turn on MSS clamping
 
 
