@@ -1,0 +1,5 @@
+Backport MIPS and PowerPC uclibc memcpy,memset and memmove assembler optimizations
+Remove unnessary packages, only kernel modules are retained
+Update ath10k from master branch to obtain better wireless performance
+Remove Disable MSS, no longer required as fast path negates effects
+
