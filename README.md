@@ -19,10 +19,9 @@ It also contains compiler optimization for the mips24kc,mips74kc and mpc8548 arc
 
 FAQ
 ---
-Problem: PPPoE cannot access certain websites
 
-Go to 
+Cannot install packages with Kernel Dependencies?
 
-Network > Firewall > General Settings > Turn on MSS clamping
+Use --nodeps in opkg
 
-
+The builds uses the LEDE upstream repository unfortunately kernel config is hashed so any changes will make it uncompatible

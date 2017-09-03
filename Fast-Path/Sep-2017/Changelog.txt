@@ -1,0 +1,3 @@
+Add powerpc memset,memmove,memcpy and memcmp assembler optimization for E500v2 from libppv
+Update Kernel Version
+Update lede-17.02 upstream changes
