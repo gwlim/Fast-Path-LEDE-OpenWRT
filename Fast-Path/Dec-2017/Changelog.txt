@@ -1,0 +1,3 @@
+Update Kernel Version
+Update lede-17.02 upstream changes
+Change to OpenWRT theme with responsive ui
