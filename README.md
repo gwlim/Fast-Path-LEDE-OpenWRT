@@ -30,3 +30,7 @@ Request Firmware Support
 You can request support for your custom device by opening an issue however I will be only adding support to supported architectures like:
 AR71xx where I can more or less gurantee the workability of the firmware as I have a lot of devices based on this architecture.
 
+JPerf NAT Benchmark on a TP-WR1043NDv1 Atheros AR9132@430MHZ
+------------------------------------------------------------
+![alt text](https://raw.githubusercontent.com/gwlim/Fast-Path-LEDE-OpenWRT/master/bench.PNG)
+
