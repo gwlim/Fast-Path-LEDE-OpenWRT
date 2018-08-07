@@ -22,6 +22,11 @@ FAQ
 
 Cannot install packages with Kernel Dependencies?
 
-Use --nodeps in opkg
+From Aug 2018 Release Onwards Kernel should be compatible with LEDE Kernel Module Packages.
 
-The builds uses the LEDE upstream repository unfortunately kernel config is hashed so any changes will make it uncompatible
+Request Firmware Support
+------------------------
+
+You can request support for your custom device by opening an issue however I will be only adding support to supported architectures like:
+AR71xx where I can more or less gurantee the workability of the firmware as I have a lot of devices based on this architecture.
+
