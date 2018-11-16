@@ -17,12 +17,27 @@ The Fast Path implementation is based on QCA Shortcut-Fe implementation
 
 It also contains compiler optimization for the mips24kc,mips74kc and mpc8548 architecture
 
+Changes
+-------
+Latest Linux Kernel 4.4.163
+Updated GCC toolchain to 6.5
+Backported Wireless/TCP Performance patches
+Use of LTO on most packages and kernel modules
+Optimized compiler flags, js and minified CSS
+
 FAQ
 ---
 
 Cannot install packages with Kernel Dependencies?
 
-From Aug 2018 Release Onwards Kernel should be compatible with LEDE Kernel Module Packages.
+Due the use of stronger stackprotector protection, newer Linux Kernel Version and updated GCC compiler, incompatbilities with upstream Kernel Modules is expected and cannot be resolved.
+If you have any Kernel Module request drop a message in issues.
+
+What is the difference between 64MB and Above vs Below 64MB?
+
+Due to the increase in kernel size as well as compiler protections and O2 optimization flags and additional packages, memory usage for OpenWrt has increased.
+Routers that has 64MB RAM by default can use both version which routers that has only 32MB RAM should use below 64MB.
+
 
 Request Firmware Support
 ------------------------
