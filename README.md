@@ -20,10 +20,15 @@ It also contains compiler optimization for the mips24kc,mips74kc and mpc8548 arc
 Changes
 -------
 Latest Linux Kernel 4.4.163
+
 Updated GCC toolchain to 6.5
-Backported Wireless/TCP Performance patches
+
+Backported Wireless/TCP Performance patches, upstream commits that improves system performance are tested and backported not full kernel versions to reduce bloat
+
 Use of LTO on most packages and kernel modules
+
 Optimized compiler flags, js and minified CSS
+
 
 FAQ
 ---
