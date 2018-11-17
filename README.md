@@ -29,6 +29,8 @@ Use of LTO on most packages and kernel modules
 
 Optimized compiler flags, js and minified CSS
 
+Add more frequently requested VPN packages
+
 
 FAQ
 ---
