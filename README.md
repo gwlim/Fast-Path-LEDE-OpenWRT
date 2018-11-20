@@ -31,6 +31,20 @@ Optimized compiler flags, js and minified CSS
 
 Add more frequently requested VPN packages
 
+Package list in Above 64MB
+--------------------------
+
+luci luci-app-ddns luci-app-sqm luci-app-upnp luci-proto-relay luci-proto-3g
+
+kmod-usb-acm kmod-usb-serial-ipw kmod-usb-serial-option kmod-usb-serial-qualcomm 
+kmod-usb-serial-sierrawireless kmod-usb-serial-wwan kmod-usb-net-cdc-eem 
+kmod-usb-net-cdc-ether kmod-usb-net-cdc-mbim kmod-usb-net-cdc-ncm kmod-usb-net-cdc-subset 
+kmod-usb-net-hso kmod-usb-net-huawei-cdc-ncm kmod-usb-net-kalmia kmod-usb-net-qmi-wwan 
+kmod-usb-net-sierrawireless 
+
+kmod-sched-cake luci-app-openvpn openvpn-openssl luci-proto-wireguard luci-app-nlbwmon 
+luci-app-wireguard luci-app-shadowsocks-libev shadowsocks-libev shadowsocks-client wireguard ipset 
+kmod-sit kmod-ip6-tunnel kmod-nat46 kmod-ppp kmod-mppe kmod-pptp kmod-gre kmod-pppol2tp kmod-l2tp 
 
 FAQ
 ---
