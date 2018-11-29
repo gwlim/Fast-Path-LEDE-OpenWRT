@@ -22,11 +22,16 @@ New
 
 New images rebased on OpenWrt 19 (Trunk) goto DEC-2018-BETA (not every router is there currently)
 
+Although it is label BETA but I find it as stable as Openwrt 17
+
 Why?
 ----
 
 OpenWrt 17 is too old and the ath10k drivers are slow, too much effort will be required to backport the massive kernel changes
+
 Rebasing the patches is easier
+
+I have tested improved performance on the updated ath10k drivers.
 
 What is inside?
 ---------------
