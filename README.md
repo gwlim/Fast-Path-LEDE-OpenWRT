@@ -17,6 +17,46 @@ The Fast Path implementation is based on QCA Shortcut-Fe implementation
 
 It also contains compiler optimization for the mips24kc,mips74kc and mpc8548 architecture
 
+New
+---
+
+New images rebased on OpenWrt 19 (Trunk) goto DEC-2018-BETA (not every router is there currently)
+
+Why?
+----
+
+OpenWrt 17 is too old and the ath10k drivers are slow, too much effort will be required to backport the massive kernel changes
+Rebasing the patches is easier
+
+What is inside?
+---------------
+
+All the old stuff plus some new stuff
+
+What is new?
+------------
+Support for 4G LTE Modems
+
+Flow Offload + SFE
+
+Kernel 4.14.83
+
+GCC Toolchain 7.3
+
+Use of BBR Congestion Control Algorithm as default
+
+```
+root@openwrt:~# cat /proc/sys/net/ipv4/tcp_congestion_control
+bbr
+```
+
+None essential services are now disabled by default, enable manually on Startup to use them!
+
+You can choose SFE or Flow Offload as shown below
+
+![alt text](https://raw.githubusercontent.com/gwlim/Fast-Path-LEDE-OpenWRT/master/sfe-offload.PNG)
+
+
 Changes
 -------
 Latest Linux Kernel 4.4.163
