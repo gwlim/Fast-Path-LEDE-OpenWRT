@@ -59,7 +59,7 @@ None essential services are now disabled by default, enable manually on Startup 
 
 You can choose SFE or Flow Offload as shown below
 
-![alt text](https://raw.githubusercontent.com/gwlim/Fast-Path-LEDE-OpenWRT/master/sfe-offload.PNG)
+![alt text](https://raw.githubusercontent.com/gwlim/Fast-Path-LEDE-OpenWRT/master/sfe-offload.png)
 
 
 Changes
